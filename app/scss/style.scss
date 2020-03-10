@@ -2,6 +2,9 @@
 @import "_global";
 @import "_fonts";
 //start header
+.header{
+  background-color: #fff;
+}
 .header__top-inner{
   display: flex;
   justify-content: space-between;
@@ -22,8 +25,10 @@
   text-align: center;
   color: #fff;
   font-size: 12px;
+  margin-left: 9px;
 }
 .header__btn-login{
+
   background-color: $green;
 }
 .header__btn-register,
@@ -173,7 +178,7 @@
   border-top: none;
   height: 0;
   overflow: hidden;
-
+  z-index: 49;
 }
 .user__box,
 .basket__box,
@@ -299,6 +304,10 @@
 }
 .icons-color::before{
   color: $tomato;
+}
+.header__btn-menu,
+.menu__btn{
+  display: none;
 }
 //end header
 //start search
@@ -1148,3 +1157,4 @@ button.icon-unsorted{
   }
 }
 //end filter
+@import "_media";
