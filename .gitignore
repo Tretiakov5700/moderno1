@@ -3,6 +3,7 @@
 .LSOverride
 .ws
 .idea/
+.packege-lock.json
 
 node_modules/
 app/css/
