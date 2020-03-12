@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "browsersync": "0.0.1-security",
     "cssmin": "^0.4.3",
     "gulp": "^4.0.2",
